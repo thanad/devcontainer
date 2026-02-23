@@ -1,6 +1,9 @@
 {
         "name": "Node.js & PostgreSQL",
         "dockerComposeFile": "docker-compose.yml",
+        "build": {
+            "dockerfile": "Dockerfile"
+        },
         "service": "app",
         "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
 
