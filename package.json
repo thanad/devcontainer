@@ -1,0 +1,26 @@
+{
+  "name": "devcontainer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanad/devcontainer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanad/devcontainer/issues"
+  },
+  "homepage": "https://github.com/thanad/devcontainer#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js",
+    "start": "node src/index.js"
+  }
+}
